@@ -1,16 +1,44 @@
-# React + Vite
+# React Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: **https://pratik-code7.github.io/React-Task-Manager/**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 About
 
-## React Compiler
+This is a simple **Task Manager app** built with **React** (using Vite).  
+You can add tasks, edit them, delete them, and (optionally) update status.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It’s designed to help you practice React fundamentals such as:
+- useState
+- props
+- component structure
+- controlled inputs
+- CRUD operations
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Preview
+
+🔗 **Live App:** https://pratik-code7.github.io/React-Task-Manager/
+
+> If the app shows a white screen, make sure the repo was deployed correctly  
+> with base path configured in `vite.config.js`.
+
+---
+
+## 🛠️ Features
+
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Scroll list of tasks
+- Clean and simple UI (Tailwind CSS)
+
+---
+
+## 🧠 How to Run Locally
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Pratik-Code7/React-Task-Manager.git
